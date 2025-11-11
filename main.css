@@ -55,6 +55,54 @@ main{
     min-height: 615px;
     display: inline-block;
 }
+
+/* First page */
+
+.image{
+    float: left;
+}
+main article .image img{
+    height: 250px;
+}
+/* Second Page */
+
+.image-2{
+    float: right;
+}
+main article .image-2 img{
+    height: 250px;
+}
+
+/* Third Page */
+
+.left{
+    margin: 20px;
+    border: 1px black solid;
+    width: 600px;
+    height: 200px;
+    float: left;
+}
+
+.right{
+    margin: 20px;
+    border: 1px black solid;
+    width: 600px;
+    height: 200px;
+    float: right;
+}
+
+.both{
+    margin: 20px;
+    border: 1px black solid;
+    
+    height: 200px;
+    clear: both;
+}
+
+main .right img{
+    height: 150px;
+}
+
 section{
     width: calc(100% - 204px);
     height: 615px;
