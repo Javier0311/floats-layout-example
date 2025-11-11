@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #1f1f1f;
+    padding: 32px;
+    min-height: 80px;
+}
+nav img{
+    max-height: 48px;
+    background-color: white;
+}
+.spacer{
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    /* Paren widdth - Logo width - Menu <ul> width */
+    width: calc(100% - 40px - 280px);
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: bottom;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li:last-child{
+    margin-right: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    color: white;
+}
+nav ul li a.current{
+    color: green;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(229, 145, 000);
+}
+nav ul li a:active {
+    color: green;
+}
+main{
+    width: 100%;
+    min-height: 615px;
+    display: inline-block;
+}
+section{
+    width: calc(100% - 204px);
+    height: 615px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.nintendo{
+    width: 150px;
+}
+.show div{
+    display: none;
+}
+
+.show div:target{
+
+    margin: 40px;
+    display: block;
+    border: 2px solid darkorange;
+    background-color: beige;
+}
+
+main nav{
+    width: 200px;
+    height: 615px;
+    display: inline-block;
+    background-color: gray;
+    vertical-align: top;
+    padding: 20px;
+    border: 3px solid black;
+}
+main nav h2{
+    padding: 10px 10px 40px 10px;
+    font-size: 30px;
+}
+
+main nav ul{
+    text-align: left;
+    padding: 0px 30px 0px 30px;
+}
+
+main nav ul li{
+    display: block;
+}
+main nav ul li a{
+    font-size: 18px;
+}
+
+main nav ul li a:link,
+main nav ul li a:visited{
+    color: skyblue;;
+
+}
+
+main nav ul li a:hover {
+    color: rgb(229, 145, 000);
+}
+
+main nav ul li a:active {
+    color: green;
+}
+
+footer{
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+}
+footer nav{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    min-height: 40px;
+}
+footer nav ul{
+    margin-bottom: 0px;}
+.spacer_two{
+    display: inline-block;
+    border: 1px solid white;
+    width: calc(100% - 100px);
+    margin-bottom: 10px;
+}
